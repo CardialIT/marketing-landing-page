@@ -28,21 +28,23 @@ const toggleMenu = () => {
 
       <div className="links">
  
-          {/* <a className="link" href="#sobre">
+          <a className="link" href="">
             Sobre
           </a>
    
         
 
-          <a className="link" href="#projetos">
-            Produtos
+          <a className="link" href="">
+            Portfolio
           </a>
       
 
  
-          <a className="link" href="#experiencia">
-            Equipe
-          </a> */}
+          <a className="link" href="">
+            Preços
+          </a>
+
+     
     
         
       </div>

@@ -1,58 +1,20 @@
 .page-container{
-padding-top: 5vw;
 display: flex;
 flex-direction: row;
+height: auto;
 
 } 
 
 .side-left{
-  
+height: 100vh;
     width: 50%;
-    padding-left: 5vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    gap: 20px;
+    align-items: center;
+    padding: 40px 40px 40px 100px;
+    text-align: start;
 
-
-}
-
-.side-left p {
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: regular;
-    color: var(--color-paragraph);
-}
-
-.div-email {
-display: flex;
-flex-direction: row;
-
-align-items: center;
-justify-content: center;
-
-}
-
-.input-email{
-    border-radius: 50px;
-    height: 54px;
-    width: 250px;
-    padding: 5px 5px 5px 5px;
-    width: 400px
-}
-
-
-.button-insight {
-    height: 54px;
-    width: 150px;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: regular;
-
-}
-
-.button-insight a{
-color: white;
 }
 
 .side-right{
@@ -61,16 +23,78 @@ color: white;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 80vh;
+
 }
+
+.side-left h1{ 
+
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    font-size: 68px;
+
+}
+
+.side-left p {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: regular;
+    color: var(--color-paragraph);
+
+
+}
+
+.div-email {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+gap: 40px;
+
+
+}
+
+.input-email{
+    border-radius: 50px;
+    height: 64px;
+    width: 30vw;
+    border-color: #AAAAAA;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 20px;
+}
+
+
+.button-insight {
+    width: 230px;
+    height: 48px; 
+    padding: center; 
+    border-radius: 50px; 
+    border: 1px solid #3461FF; 
+    background-color: #3461FF; 
+    color: #ffffff; 
+    font-family: 'Inter', sans-serif; 
+    font-size: 18px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-decoration: none;  
+
+}
+
+.button-insight a{
+color: white;
+}
+
+
 
 .side-right img{
   
-    width: 40vw;
+    width: 28vw;
+    height: 80vh;
 }
 
-.title-banner{
-    font-size: 60px;
-}
+
  
 @media (max-width: 732px) { 
 .side-right{
@@ -91,10 +115,6 @@ color: white;
     height: auto;
 }
 
-.container-title-animate{
-  
-    height: auto;
-}
 
 .button-insight{
     width: 200px;
@@ -106,13 +126,7 @@ color: white;
     display: none;
 }
 
-.title-banner{
-    display: block;
-    font-weight: 500;
-    text-align: center;
-    font-size: 30px;
 
-}
 
 .side-left p {
     font-size: 15px;
