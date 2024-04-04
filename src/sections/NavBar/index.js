@@ -11,11 +11,6 @@ export default function NavBar() {
 const toggleMenu = () => {
   setIsOpen(!isOpen);
 };
-
-
-
-  
-
   return (
     <header className="navbar">
       <div className="container-links">
@@ -31,8 +26,6 @@ const toggleMenu = () => {
           <a className="link" href="">
             Sobre
           </a>
-   
-        
 
           <a className="link" href="">
             Portfolio
