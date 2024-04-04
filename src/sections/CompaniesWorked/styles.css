@@ -1,0 +1,35 @@
+.companies-container {
+  text-align: center;
+  padding: auto;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.logos-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.logos-row img {
+  width: 100px;
+  height: auto;
+}
+
+@media (max-width: 732px) {
+  .companies-container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .logos-row {
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .logos-row img {
+    width: 60px;
+  }
+}
