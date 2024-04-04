@@ -23,24 +23,29 @@ function Highlights() {
 
 <div className="div-email">
   <input className="input-email" placeholder="Insira seu melhor e-mail"/>
-        {/* <Tilt
+        <Tilt
         className="tilt"
         options={{ max: 25 }}
-        style={{ height: 50, width: 250 }}
-      > */}
+        style={{ height: 50, width: 100 }}
+      >
         <button >
       Enviar
       
         </button>
-      {/* </Tilt> */}
+      </Tilt>
 
       </div>
 
       </div>
 
+
+ 
       <div className="side-right">
         <img src={bannerPrimaryImg} alt="Banner" />
       </div>
+
+
+
     </div>
   );
 }
