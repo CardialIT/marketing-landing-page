@@ -9,6 +9,7 @@ import ReactWhatsappButton from "react-whatsapp-button";
 import "./global.css";
 import Companies from "./sections/CompaniesWorked";
 import Statistics from "./sections/Statistics";
+import Blog from "./sections/Blog";
 
 function App() {
   return (
@@ -18,10 +19,9 @@ function App() {
       <BannerPrimary />
       <Companies />
       <Statistics />
+      <Blog />
       <OurSolutions />
-
       {/* <OurTeam /> */}
-
       <Footer />
     </div>
   );
