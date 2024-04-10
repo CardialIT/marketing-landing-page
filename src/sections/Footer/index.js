@@ -1,63 +1,95 @@
 import React from "react";
 import "./styles.css";
-import LogoBranco from "../../assets/cardial-logo-branco.png"
-import { FaInstagram } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-
+import LogoIpsun from "../../assets/logoipsum.png";
+import Insta from "../../assets/instagram1.svg";
+import Twitter from "../../assets/twitter.svg";
+import Facebook from "../../assets/facebook.svg";
 
 function Footer() {
   return (
-    <div className="container-footer">
-      <div className="section-top">
-
+    <>
+      <footer className="footer">
         <div className="footer-left">
-          <img src={LogoBranco} />
-
-          <div className="links-footer">
-            {/* <a>Home</a>
-            <a>Sobre Nós</a>
-            <a>Produtos</a> */}
+          <img src={LogoIpsun} alt="Logipsum" className="footer-logo" />
+          <div className="social-icons">
+            <a href="#">
+              <i className="fab fa-instagram">
+                <img src={Insta} alt="Instagram" />
+              </i>
+            </a>
+            <a href="#">
+              <i className="fab fa-twitter">
+                <img src={Twitter} alt="Twitter" />
+              </i>
+            </a>
+            <a href="#">
+              <i className="fab fa-facebook">
+                <img src={Facebook} alt="Facebook" />
+              </i>
+            </a>
           </div>
-
-
+          <button className="contact-button">Contact Us</button>
         </div>
 
         <div className="footer-right">
-          <p>Venha nos conhecer!</p>
-
-          <button className="footer-button">
-            <a href="https://api.whatsapp.com/send?phone=5541996745640&text=Ol%C3%A1!%20vim%20do%20Site%20da%20Cardial%20;)">Entrar em contato</a></button>
-
+          <div className="footer-center">
+            <ul className="footer-links">
+              <li>
+                <a href="#">Work With Us</a>
+              </li>
+              <li>
+                <a href="#">Advertise With Us</a>
+              </li>
+              <li>
+                <a href="#">Support Us</a>
+              </li>
+              <li>
+                <a href="#">Private Coaching</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-center">
+            <ul className="footer-links">
+              <li>
+                <a href="#">Private Coaching</a>
+              </li>
+              <li>
+                <a href="#">Our Work</a>
+              </li>
+              <li>
+                <a href="#">Our Clients</a>
+              </li>
+              <li>
+                <a href="#">Our Partners</a>
+              </li>
+            </ul>
+          </div>
+          <div className="footer-center">
+            <ul className="footer-links">
+              <li>
+                <a href="#">About Us</a>
+              </li>
+              <li>
+                <a href="#">FAQs</a>
+              </li>
+              <li>
+                <a href="#">Report a Bug</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </footer>
 
-      </div>
-
-
-
-      <hr className="divider" />
-
-      <div className="section-bottom">
-
-        <div className="footer-left-bottom">
-          <p>&copy; 2024 Cardial I.T. Todos os direitos reservados.</p>
-          <p>Curitiba-PR</p>
+      <footer className="footerEnd">
+        <div className="footer-content">
+          <p>© 2021 - All Rights Reserved</p>
         </div>
-
-
-        <div className="section-buttons-bottom">
-          <a className="button-social-media">
-            <FaInstagram className="icon-social-media" />
-          </a>
-
-          <a className="button-social-media">
-            <CiLinkedin className="icon-social-media" />
-          </a>
-
+        <div className="footerEnd-links">
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
         </div>
-
-      </div>
-
-    </div>
+      </footer>
+    </>
   );
 }
 
