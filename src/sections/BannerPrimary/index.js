@@ -28,7 +28,7 @@ function Highlights() {
         options={{ max: 25 }}
         style={{ height: 50, width: 100 }}
       >
-        <button >
+        <button className="send-button">
       Enviar
       
         </button>
