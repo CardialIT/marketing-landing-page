@@ -105,30 +105,39 @@
 }
 
 @media (max-width: 732px) {
-
   .popup-menu-content {
     width: 80%;
     max-width: 300px;
   }
 
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 10px; /* Adiciona um espaçamento interno */
+  }
+
+  .logo {
+    flex-grow: 1; /* Aumenta o espaço ocupado pela logo */
+    max-width: 50%; /* Limita a largura da logo */
+  }
 
   .links {
     display: none;
   }
 
-  .botao{
-    display:none;
+  .botao {
+    display: none;
   }
 
-  .button-menu-hamburguer{
+  .button-menu-hamburguer {
     display: flex;
     margin-top: -2px;
     margin-right: 10px;
     width: 20px;
-
-  }
-  .hamburguer-icon{
-   color: var(--color-primary);
   }
 
+  .hamburguer-icon {
+    color: var(--color-primary);
+  }
 }
