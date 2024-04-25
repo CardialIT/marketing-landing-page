@@ -104,11 +104,16 @@
 
         .page-container {
             flex-direction: column;
+            height: auto;
+            align-items: flex-start; /* Alinhar os itens no início do contêiner */
+        
         }
     
         .side-left {
             width: 100%;
             padding: 0 20px; /* Ajuste do padding */
+            align-self: flex-start;
+            height: auto;
         }
         .side-right {
             display: none; /* Oculta .side-right em telas menores */

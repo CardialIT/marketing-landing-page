@@ -20,16 +20,20 @@
 @media (max-width: 732px) {
   .companies-container {
     margin-top: 50px;
-    margin-bottom: 20px;
+  
+    height: auto;
   }
 
   .logos-row {
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 50px;
+    width: auto;
   }
 
   .logos-row img {
-    width: 60px;
+    width: 55px;
   }
+
+ 
 }
