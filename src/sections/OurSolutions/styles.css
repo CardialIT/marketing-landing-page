@@ -50,6 +50,7 @@ align-items: start;
 
 .right-section-values img{
   height: 60px;
+  
 }
 
 .right-section-values h2{
@@ -176,5 +177,22 @@ margin-bottom: -80px;
     align-items: start;
     
   }
+.right-section-values{
 
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.left-section-content{
+  width: 400px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  }
 }

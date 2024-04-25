@@ -91,7 +91,7 @@
     padding: 10px;
   }
   .left-container {
-    border-right: none;
+    
     padding-right: 0;
     padding-bottom: 20px;
     align-items: center;
@@ -99,6 +99,8 @@
 
   .right-container {
     padding-left: 0;
+    flex-direction: column;
+    padding-right: 0;
   }
 
   .left-container img {
@@ -110,4 +112,6 @@
     transform: scale(1);
     font-size: 12px;
   }
+
+
 }

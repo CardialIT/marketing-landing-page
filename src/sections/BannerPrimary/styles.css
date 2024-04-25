@@ -100,49 +100,40 @@
     
     
      
-    @media (max-width: 732px) {
+   @media (max-width: 732px) {
+    .page-container {
+        flex-direction: column;
+        align-items: center; /* Centralizar os itens no contêiner */
+    }
 
-        .page-container {
-            flex-direction: column;
-            height: auto;
-            align-items: flex-start; /* Alinhar os itens no início do contêiner */
-        
-        }
-    
-        .side-left {
-            width: 100%;
-            padding: 0 20px; /* Ajuste do padding */
-            align-self: flex-start;
-            height: auto;
-        }
-        .side-right {
-            display: none; /* Oculta .side-right em telas menores */
-        }
-    
-        .input-email {
-            width: 80%;
-            max-width: 300px; /* Para limitar a largura máxima */
-        }
-    
-        .button-insight {
-            width: 80%;
-            max-width: 250px; /* Para limitar a largura máxima */
-            margin: 20px auto; /* Centralizar o botão */
-        }
-    
-
-    .animated-text {
+    .side-left {
+        width: 100%;
+        padding: 0px; /* Adicionando espaçamento interno */
+        text-align: center; /* Centralizando o texto */
+        height: auto;
+    }
+    .side-right{
         display: none;
+    }
+    .input-email {
+        width: 100%; /* Ocupar toda a largura disponível */
+        max-width: 300px; /* Limitar a largura máxima */
+    }
+
+    .button-insight {
+        width: 100%; /* Ocupar toda a largura disponível */
+        max-width: 250px; /* Limitar a largura máxima */
+        margin: 20px auto; /* Centralizar o botão */
     }
 
     h1.title-banner {
-        display: block;
-        font-weight: 500;
+        font-size: 24px; /* Reduzir o tamanho da fonte para 24px */
         text-align: center;
-        font-size: 30px;
+        font-weight: 500;
+        display: block;
     }
 
     .side-left p {
-        font-size: 15px;
+        font-size: 14px; /* Reduzir o tamanho da fonte para 14px */
     }
 }

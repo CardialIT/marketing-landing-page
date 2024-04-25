@@ -29,7 +29,7 @@ function Companies() {
 
   return (
     <div className="companies-container">
-      <h1>Empresas Com As Quais Trabalhamos</h1>
+      <h1>Empresas com as quais trabalhamos</h1>
       <div className="logos-row">
         {companies1.map((company) => (
           <img
